@@ -37,3 +37,17 @@ tbody tr:nth-child(odd){
 tr:nth-child(even) {
     background-color: #F5F5F5;
 }
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
